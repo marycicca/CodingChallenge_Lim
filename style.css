@@ -1,0 +1,82 @@
+/*Background*/
+
+.background{
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 100px;
+    width: 80%;
+    max-width: 900px;
+}
+    
+
+/*Header-Logo*/
+
+.logo{
+    text-align: center;
+    color: #08d108;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.logo img{
+    width: 20%;
+}
+
+/*Search Bar*/
+
+.search{
+    text-align: center;
+    padding: 1%;
+    background-color: #08d108;
+    border: 1px solid black;
+}
+
+/* Main */
+
+.monopattino{
+    display: inline;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: light;
+}
+
+.status_orange{
+    background-color: #FFAC33;
+    height: 15px;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.status_green{
+    background-color: #36CF1E;
+    height: 15px;
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.status_red{
+    background-color: #FF3333;
+    height: 15px;
+    width: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
